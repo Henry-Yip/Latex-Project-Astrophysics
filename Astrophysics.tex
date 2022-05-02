@@ -1,6 +1,7 @@
 \documentclass{article}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\newcommand{\ie}{\textit{i}.\textit{e}. }
 \usepackage [utf8] {inputenc}
 \title{Introductory Astrophysics (PHYS08050) Notes}
 \author{Henry Yip}
@@ -9,6 +10,41 @@
 \begin{abstract}
 This set of notes is made with reference to the Astrophysics Coursebook by The University of Edinburgh. I have gained permission from Professor Catherine Heymans to put my modified notes in my website, and I think this refers to GitHub also. It is also available in my personal website.
 \end{abstract}
+\section{White dwarfs}
+\begin{itemize}
+    \item The assumption that white dwarfs can be described as ideal gas is wrong.
+    \begin{itemize}
+        \item Because at $10^10k$, the next phase of fusion burning would commence, turning the white dwarfs Carbon and Oxygen core into Neon and Magnesium and the luminosity would rocket up.
+       \item This does not happen!
+    \end{itemize}
+    \item  The gas in a white dwarf is called 
+    \textbf{degenerate}
+    \item Carbon nuclei and electrons inside a white dwarf are packed together at such extreme densities that electrons start to overlap with each other
+\end{itemize}
+\section{Supernovae}
+\begin{itemize}
+\item \textbf{Note that the sections about supernovae are directly copied out from coursebook as I have very limited knowledge!}
+\item The most massive stars become short-lived, very luminous, supergiants where the core temperature becomes so extreme that successive fusion \textbf{s-processes} occur
+\item Heavier and heavier elements are created in different shells within the star, resulting in an onion-like structure around a central Iron core
+\item Iron has the highest binding energy per nucleon
+\item No further fusion reactions will produce energy and so the core starts to contracts. Just as in the white dwarf star, electron degeneracy pressure will increase as the star shrinks, but in these massive stars even it is unable to halt the collapse.
+\item Large quantities of neutrons are created by the collapse as Iron nuclei are broken up by photons. Elements heavier than Iron are then produced through rapid \textbf{r-process} reactions with the new flux of neutrons. The core crushing continues and the core becomes neutron degenerate. Neutron degeneracy pressure builds up quickly causing the inner part of the core collapse to come to a sudden halt and rebound slightly.(\ie  It is still stopped by Neutron degeneracy pressure. What if it doesn't? Check the case for Black Holes!) This sends a giant shock wave out through the star, the end result of which is a giant supernova explosion.
+\end{itemize}
+\section{Supernova 1a}
+\begin{itemize}
+    \item Stars often come in pairs
+    \item They will typically start life with \textbf{different masses} and hence evolve at different rates.
+    \item We will therefore often find binary pairings of white dwarf stars with other main sequence stars
+    \item  As the white dwarf cannibal gains in mass, its
+radius shrinks 
+    \item the uncertainty electron momentum increases until the electron
+speeds become relativistic.
+    \item When the mass exceeds the Chandrasekhar limit with $M = 1.4M_\odot$,
+    \item The white dwarf diamond core starts to collapse. \item When the compressed core finally becomes neutron degenerate the core collapse will come to a sudden halt and rebound slightly causing a supernova explosion
+    \item Supernova 1a occurs at the precise moment when the mass exceeds the Chandrasekhar limit. It therefore looks the same, at any point in space or time,
+\end{itemize}
+\section{Black Holes}
+
 \section{Definition}
 \begin{itemize}
 \item \textbf{Luminosity}
@@ -179,7 +215,7 @@ You can read off the period of a Type 1 Cepheid and locate it to its luminosity 
 \section{Supernovae as Standard Candles}
 Type I (in particular Type 1a) are “white dwarf bombs”.
 this involves the conflagration of a White Dwarf exactly at its Chandrasekhar limit, the amount
-of energy released is always the same, so they make excellent standard candles.
+of energy released is always the same, so they make excellent standard candles.(See the above for details!)
 \section{Stellar Luminosity function}
 \begin{itemize}
 \item The stellar luminosity function $\phi(L)$ refers to the number of stars per unit
@@ -525,6 +561,15 @@ Combining with other effects, we have $\mu \approx 0.1$
 \item \textbf{If $E<0$, the universe re-collaspes in a big crunch}
 \item \textbf{If $E>0$, the universe continues to expand}
 \end{itemize}
+\section{Hubble constant}
+\begin{itemize}
+    \item It changes with radius (see below)
+    \item An important equation:
+    \begin{equation}
+        z=\frac{H_0D}{c}
+    \end{equation}
+This is an obvious result from Doppler's shift. Recall that $z=\frac{\Delta \lambda}{\lambda}$, $V=H_0r$ and $\frac{\Delta \lambda}{\lambda}=\frac{v_r}{v_w}$. Substitute everything and you'll get it.
+\end{itemize}
 \section{Critical Density of the Universe}
 \begin{itemize}
     \item Consider the equations below:
@@ -605,11 +650,11 @@ expansion of the Universe at speeds faster than light
 \item At the start of the universe, $R(t)$ was small, and the universe was dominated by radiation.
 \item What is the redshift at the time when energy density of matter and radiation equal? We are given:
 \begin{equation}
-    \frac{\rho_r(t=\text{today)}}{\rho_m(t=\text{today})}&=0.0003
+    \frac{\rho_r(t=\text{today)}}{\rho_m(t=\text{today})}=0.0003
 \end{equation}
 At the redshift where the energy density of matter and radiation were equal:
 \begin{equation}
- \frac{\rho_r(t=\text{equal)}}{\rho_m(t=\text{equal})}&=1
+ \frac{\rho_r(t=\text{equal)}}{\rho_m(t=\text{equal})}=1
 \end{equation}
 Remember from above,
 \begin{align}
@@ -715,4 +760,3 @@ D_L \approx \frac{c(1+z)(z-\frac{1+q}{2}z^2)}{H_0}
 \item The university is flat and has critical density:  $\Omega_b+\Omega_m+\Omega_\Lambda=1$
 \end{itemize}
 \end{document}
-
