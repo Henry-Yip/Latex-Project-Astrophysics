@@ -1,8 +1,9 @@
 \documentclass{article}
 \usepackage{amsmath}
 \usepackage{amssymb}
-\newcommand{\ie}{\textit{i}.\textit{e}. }
+\usepackage{parskip}
 \usepackage [utf8] {inputenc}
+\newcommand{\ie}{\textit{i}.\textit{e}. }
 \title{Introductory Astrophysics (PHYS08050) Notes}
 \author{Henry Yip}
 \begin{document}
@@ -10,16 +11,41 @@
 \begin{abstract}
 This set of notes is made with reference to the Astrophysics Coursebook by The University of Edinburgh. I have gained permission from Professor Catherine Heymans to put my modified notes in my website, and I think this refers to GitHub also. It is also available in my personal website.
 \end{abstract}
+\section{Binding energy}
+\begin{itemize}
+\item Gravitational energy of the shell:
+\begin{equation}
+    dU=\frac{-GM(<r)}{r}dm
+\end{equation}
+\item We also have:
+\begin{align}
+    M(<r)&=\rho \frac{4 \pi r^3}{3}\\
+    \rho&=\frac{M_\text{tot}}{\frac{4}{3} \pi R^3}
+\end{align}
+\item Hence,
+\begin{align}
+    M(<r)&=\left(\frac{M_\text{tot}}{\frac{4}{3} \pi R^3} \right) \left(\frac{4 \pi r^3}{3} \right)\\
+    &=\frac{M_\text{tot}r^3}{R^3}
+\end{align}
+\item Combining everything:
+\begin{align}
+     dU&=\frac{-GM(<r)}{r}dm\\
+     \implies  dU&=\frac{-G\frac{M_\text{tot}r^3}{R^3}}{r}dm\\
+     \implies  dU&=\frac{-GM_\text{tot}r^2}{R^3}dm
+\end{align}
+\item recall that $dm$=$\rho dV$ and $dV=4\pi r^2 dr$. Hence $dm= 4\pi r^2 \rho dr$
+\end{itemize}
+\item To be completed after exams!
 \section{White dwarfs}
 \begin{itemize}
     \item The assumption that white dwarfs can be described as ideal gas is wrong.
     \begin{itemize}
-        \item Because at $10^10k$, the next phase of fusion burning would commence, turning the white dwarfs Carbon and Oxygen core into Neon and Magnesium and the luminosity would rocket up.
+        \item Because at $10^{10}k$, the next phase of fusion burning would commence, turning the white dwarfs Carbon and Oxygen core into Neon and Magnesium and the luminosity would rocket up.
        \item This does not happen!
     \end{itemize}
     \item  The gas in a white dwarf is called 
     \textbf{degenerate}
-    \item Carbon nuclei and electrons inside a white dwarf are packed together at such extreme densities that electrons start to overlap with each other
+    \item Carbon nuclei (including oxygen?!) (as the end products of the triple-alpha process) and electrons inside a white dwarf are packed together at such extreme densities that electrons start to overlap with each other
 \end{itemize}
 \section{Supernovae}
 \begin{itemize}
