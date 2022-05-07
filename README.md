@@ -26,5 +26,5 @@ Download MikTeX (The Source Code is available in [GitHub](https://github.com/MiK
 ```bash
 pdflatex (name of your document).tex
 ```
-You can also click "View" in TexMaker, then "print" and then "Microsoft Print to Pdf". However, for me, the hyperlink doesn't work if I use this method (I will investigate on that)
+You can also click "View" in TexMaker, then "print" and then "Microsoft Print to Pdf". However, for me, the hyperlink doesn't work if I use this method (I will investigate on that).
 
