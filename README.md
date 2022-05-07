@@ -1,6 +1,6 @@
 # Overleaf
 
-Overleaf is an online, collaborative LaTeX Editor. 
+Overleaf is an online, collaborative [LaTeX](https://en.wikipedia.org/wiki/LaTeX) Editor. 
 
 ## Downloading the documents
 
