@@ -2,13 +2,13 @@
 This set of notes is made with reference to the Astrophysics Coursebook by The University of Edinburgh. I have gained permission from Professor Catherine Heymans to put my modified notes in my website, and I think this refers to GitHub also. It is also available in my personal website.
 
 ## Prerequisites
-Proficiency in Calculus and Classical, in particular, Newtonian Mechanics.
+Proficiency in Calculus and Classical Physics, in particular, Newtonian Mechanics.
 
 ## Scope
 Galaxies and Cosmology, with some coverage on stars. 
 
 # Download
-
+There are 2 suggested ways to download the pdf (The reason why I don't put a pdf here is because you can edit the content as you like!) For more details please check the LaTeX webpage for how to write in LaTeX.
 # 1. Overleaf
 
 Overleaf is an online, collaborative [LaTeX](https://en.wikipedia.org/wiki/LaTeX) Editor. 
