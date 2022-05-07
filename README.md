@@ -15,4 +15,5 @@ Download MikTeX (The Source Code is available in [GitHub](https://github.com/MiK
 ```bash
 pdflatex (name of your document).tex
 ```
+You can also click "view" in TexMaker, then "print" and then "Microsoft Print to Pdf"
 
