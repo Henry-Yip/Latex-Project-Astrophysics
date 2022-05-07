@@ -7,7 +7,7 @@ Basic Calculus and Newtonian Mechanics
 ## Scope
 Galaxies and Cosmology, with some coverage on stars. 
 
-## Download
+# Download
 
 # 1. Overleaf
 
