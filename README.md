@@ -4,7 +4,7 @@ Overleaf is an online, collaborative [LaTeX](https://en.wikipedia.org/wiki/LaTeX
 
 ## Downloading the documents
 
-Go to [the offical website of Overleaf](https://www.overleaf.com/) and register for a new account. Create a new project and copy all the lines. Press compile and download the pdf document.
+Go to [the offical website of Overleaf](https://www.overleaf.com/) and register for a new account. Create a new project and copy all the lines in main.tex (the document above). Press compile and download the pdf document.
 
 ## Alternative-TexMaker
 
