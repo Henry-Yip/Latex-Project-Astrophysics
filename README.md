@@ -2,7 +2,7 @@
 This set of notes is made with reference to the Astrophysics Coursebook by The University of Edinburgh. I have gained permission from Professor Catherine Heymans to put my modified notes in my website, and I think this refers to GitHub also. It is also available in my personal website.
 
 ## Prerequisites
-Basic Calculus and Newtonian Mechanics
+Proficiency in Calculus and Classical, in particular, Newtonian Mechanics.
 
 ## Scope
 Galaxies and Cosmology, with some coverage on stars. 
