@@ -11,7 +11,7 @@ Go to [the offical website of Overleaf](https://www.overleaf.com/) and register 
 Download [TexMaker](https://www.xm1math.net/texmaker/) (Alternatively, you can also use [VSCode](https://code.visualstudio.com/Download), it looks better but they are essentially the same, excepts that VSCode also supports other programming languages, like Python, etc). There are tons of tutorials in youtube, make sure to check them out.
 
 ## Converting your PDF File in TexMaker to PDF
-Download MikTeX and cd to the place you stored your tex file. 
+Download MikTeX (The Source Code is available in [GitHub](https://github.com/MiKTeX/miktex/)) and cd to the place you stored your tex file. 
 ```bash
 pdflatex (name of your document).tex
 ```
