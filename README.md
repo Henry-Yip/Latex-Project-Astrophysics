@@ -7,7 +7,9 @@ Basic Calculus and Newtonian Mechanics
 ## Scope
 Galaxies and Cosmology, with some coverage on stars. 
 
-# Overleaf
+## Download
+
+# 1. Overleaf
 
 Overleaf is an online, collaborative [LaTeX](https://en.wikipedia.org/wiki/LaTeX) Editor. 
 
@@ -15,7 +17,7 @@ Overleaf is an online, collaborative [LaTeX](https://en.wikipedia.org/wiki/LaTeX
 
 Go to [the offical website of Overleaf](https://www.overleaf.com/) and register for a new account. Create a new project and copy all the lines in main.tex (the document above). Press compile and download the pdf document.
 
-# Alternative-TexMaker
+# 2. TexMaker
 
 Download [TexMaker](https://www.xm1math.net/texmaker/) (Alternatively, you can also use [VSCode](https://code.visualstudio.com/Download), it looks better but they are essentially the same, excepts that VSCode also supports other programming languages, like Python, etc). There are tons of tutorials in youtube, make sure to check them out.
 
