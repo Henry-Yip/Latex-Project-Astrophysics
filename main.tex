@@ -5,42 +5,16 @@
 \usepackage [utf8] {inputenc}
 \newcommand{\ie}{\textit{i}.\textit{e}. }
 \title{Introductory Astrophysics (PHYS08050) Notes}
-\author{Henry Yip}
+\author{Henry Yip
+s2231321@ed.ac.uk
+}
 \begin{document}
 \maketitle
 \begin{abstract}
 This set of notes is made with reference to the Astrophysics Coursebook by The University of Edinburgh. I have gained permission from Professor Catherine Heymans to put my modified notes in my website, and I think this refers to GitHub also. It is also available in my personal website.
 \end{abstract}
-\section{Important Constants}
-\begin{itemize}
-\item $1pc=3.086 \times 10^{16}m$
-\end{itemize}
-\section{Binding energy}
-\begin{itemize}
-\item Gravitational energy of the shell:
-\begin{equation}
-    dU=\frac{-GM(<r)}{r}dm
-\end{equation}
-\item We also have:
-\begin{align}
-    M(<r)&=\rho \frac{4 \pi r^3}{3}\\
-    \rho&=\frac{M_\text{tot}}{\frac{4}{3} \pi R^3}
-\end{align}
-\item Hence,
-\begin{align}
-    M(<r)&=\left(\frac{M_\text{tot}}{\frac{4}{3} \pi R^3} \right) \left(\frac{4 \pi r^3}{3} \right)\\
-    &=\frac{M_\text{tot}r^3}{R^3}
-\end{align}
-\item Combining everything:
-\begin{align}
-     dU&=\frac{-GM(<r)}{r}dm\\
-     \implies  dU&=\frac{-G\frac{M_\text{tot}r^3}{R^3}}{r}dm\\
-     \implies  dU&=\frac{-GM_\text{tot}r^2}{R^3}dm
-\end{align}
-\item recall that $dm$=$\rho dV$ and $dV=4\pi r^2 dr$. Hence $dm= 4\pi r^2 \rho dr$
-\end{itemize}
-\item To be completed after exams!
-\section{White dwarfs}
+\section{Stars}
+\subsection{White dwarfs}
 \begin{itemize}
     \item The assumption that white dwarfs can be described as ideal gas is wrong.
     \begin{itemize}
@@ -51,7 +25,7 @@ This set of notes is made with reference to the Astrophysics Coursebook by The U
     \textbf{degenerate}
     \item Carbon nuclei (including oxygen?!) (as the end products of the triple-alpha process) and electrons inside a white dwarf are packed together at such extreme densities that electrons start to overlap with each other
 \end{itemize}
-\section{Supernovae}
+\subsection{Supernovae}
 \begin{itemize}
 \item \textbf{Note that the sections about supernovae are directly copied out from coursebook as I have very limited knowledge!}
 \item The most massive stars become short-lived, very luminous, supergiants where the core temperature becomes so extreme that successive fusion \textbf{s-processes} occur
@@ -60,7 +34,7 @@ This set of notes is made with reference to the Astrophysics Coursebook by The U
 \item No further fusion reactions will produce energy and so the core starts to contracts. Just as in the white dwarf star, electron degeneracy pressure will increase as the star shrinks, but in these massive stars even it is unable to halt the collapse.
 \item Large quantities of neutrons are created by the collapse as Iron nuclei are broken up by photons. Elements heavier than Iron are then produced through rapid \textbf{r-process} reactions with the new flux of neutrons. The core crushing continues and the core becomes neutron degenerate. Neutron degeneracy pressure builds up quickly causing the inner part of the core collapse to come to a sudden halt and rebound slightly.(\ie  It is still stopped by Neutron degeneracy pressure. What if it doesn't? Check the case for Black Holes!) This sends a giant shock wave out through the star, the end result of which is a giant supernova explosion.
 \end{itemize}
-\section{Supernova 1a}
+\subsection{Supernova 1a}
 \begin{itemize}
     \item Stars often come in pairs
     \item They will typically start life with \textbf{different masses} and hence evolve at different rates.
@@ -73,9 +47,8 @@ speeds become relativistic.
     \item The white dwarf diamond core starts to collapse. \item When the compressed core finally becomes neutron degenerate the core collapse will come to a sudden halt and rebound slightly causing a supernova explosion
     \item Supernova 1a occurs at the precise moment when the mass exceeds the Chandrasekhar limit. It therefore looks the same, at any point in space or time,
 \end{itemize}
-\section{Black Holes}
-
-\section{Definition}
+\section{Galaxies}
+\subsection{Definition}
 \begin{itemize}
 \item \textbf{Luminosity}
 \begin{itemize}
@@ -91,7 +64,7 @@ speeds become relativistic.
 \item The flux of light coming each unit solid angle on the sky (Refer to the back for the definition of \textbf{steradians})
 \end{itemize}
 \end{itemize}
-\section{ $\frac{3}{2}$ law}
+\subsection{ $\frac{3}{2}$ law}
 \begin{itemize}
 \item We can define the formula below:
 \begin{equation}
@@ -118,7 +91,7 @@ Where $N$ is the total number of stars.
 of fluxes
 \end{itemize}
 \end{itemize}
-\section{Important Symbols}
+\subsection{Important Symbols}
 Below we introduce some of the most important symbols in Astrophysics.
 \begin{table}[h]
   \begin{center}
@@ -149,7 +122,7 @@ Meanwhile, 1 steradian (sr) is equal to:
 \left(\frac{180}{\pi} \right)^2 \text{sq degrees}
 \end{equation}
 \end{itemize}
-\section{Angular resolution}
+\subsection{Angular resolution}
 \begin{itemize}
 \item By some complex analysis, we obtain the formula:
 \begin{equation}
@@ -161,7 +134,7 @@ Meanwhile, 1 steradian (sr) is equal to:
 \item Atmospheric turbulence
 \end{itemize}
 \end{itemize}
-\section{Brightness of the sky}
+\subsection{Brightness of the sky}
 Assuming stars have constant number density $n$. Consider a shell of thickness $dR$ at distance $R$ from us. The number of stars in this shell is hence $N= 4\pi n  R^2 dR$. Since each star produces a flux of  
 \begin{equation}
 F=\frac{L}{4\pi R^2}
@@ -176,7 +149,7 @@ With the definition of surface brightness,
 B=\frac{nLdR}{4 \pi}
 \end{equation}
 If we sum up the total brightness by integration, we can see that it doesn't converge, so there's something wrong with our approximations.
-\section{Dust}
+\subsection{Dust}
 \begin{itemize}
 \item The space between stars is not empty, they are filled with dust.
 \item Let $x$ be the distance travelled by the dust. Consider that when $dF=0$, $dx=0$. With other estimations, we have:
@@ -193,12 +166,12 @@ Hence,
 \frac{F}{F_o}=e^{-\frac{x}{x_e}}
 \end{equation}
 
-\item For example, if every 2 kly light is reduced by a factor of $e$, at 6 kly, light is reduced by a factor of $e^3$.\footnote{THIS PART REVISE MORE}
+\item For example, if every 2 kly light is reduced by a factor of $e$, at 6 kly, light is reduced by a factor of $e^3$.
 \item Longer wavelength light has a longer scale length as it is absorbed less.
 \item The size of cosmic dust grains is similar to the wavelength of visible light, which is why extinction is so sensitive to wavelength - much larger waves sail past and hardly notice
 the dust; much smaller waves are simply blocked.
 \end{itemize}
-\section{Cosmic Distances}
+\subsection{Cosmic Distances}
 \begin{itemize}
 
 \item The radius of the earth is denoted by $R_E$, which is defined as 1 A.U. (Astronomical Unit)
@@ -207,7 +180,7 @@ the dust; much smaller waves are simply blocked.
 
 \item When $\theta_E$ is maximum, the line joining Venus and Earth is perpendicular to the line joining Venus and Sun \footnote{Why?}. We can hence measure the distance to Venus easily.\footnote{Using trigonometry, try to deduce a formula on your own!}
 \end{itemize}
-\section{Parallex}
+\subsection{Parallex}
 \begin{itemize}
 \item Why it works?
 \begin{itemize}
@@ -221,7 +194,7 @@ D(pc)=\frac{1}{\theta"}
 For example, the nearest known star, Proxima Centauri, is at a distance of 1.30pc. The distance to Alpha Centauri is around 1.34 pc. 
 \item It is very difficult to measure parallax accurately in Ground-based measurements. The Hipparcos space mission, however, enables us to measure measure parallaxs with an error or 1mas, for relatively bright stars.
 \end{itemize}
-\section{True luminosity}
+\subsection{True luminosity}
  \begin{itemize}
  \item If we know the true luminosity\footnote{Check previous Notes!} $L$ of an object and measure its flux $F$, then we can deduce the distance. Recall that:
  \begin{align}
@@ -238,15 +211,15 @@ However, we encounter some problems
 Besides, the distance between us and the stars is overestimated as dust reduces the flux of the stars \footnote{Is it correct to say flux of the stars?}
 \item Solution: Detailed \textbf{spectroscopy}
 \item Recall that Flux scales are the inverse square of distance. For example, if a thing is 2 times apart, the flux is 4 times less.
-\item Check how to convert from arcsec to angles, angles to pc and pc to meters! And crack Q55.
+\item Check how to convert from arcsec to angles, angles to pc and pc to meters!
 \end{itemize}
-\section{Pulsating Variables as Standard Candles}
+\subsection{Pulsating Variables as Standard Candles}
 You can read off the period of a Type 1 Cepheid and locate it to its luminosity in the log graph in figure 21. Afterwards, we can find its flux \footnote{Find out how to find the flux of a star!} and using $(\ref{Distance Formula})$, we can find the distance.
-\section{Supernovae as Standard Candles}
+\subsection{Supernovae as Standard Candles}
 Type I (in particular Type 1a) are “white dwarf bombs”.
 this involves the conflagration of a White Dwarf exactly at its Chandrasekhar limit, the amount
 of energy released is always the same, so they make excellent standard candles.(See the above for details!)
-\section{Stellar Luminosity function}
+\subsection{Stellar Luminosity function}
 \begin{itemize}
 \item The stellar luminosity function $\phi(L)$ refers to the number of stars per unit
 luminosity per unit volume of space
@@ -264,7 +237,7 @@ N(L) \propto  L^{\frac{3}{2}}\phi(L)
 \item After correcting for $V_\text{max}$ effect, We have found out that $\phi(L) \propto L^{-\alpha}$, where $\alpha=-1.35$ by observations.
 \end{itemize}
 \end{itemize}
-\section{Stellar Mass Function}
+\subsection{Stellar Mass Function}
 \begin{itemize}
 \item We can rearrange equations and obtain:
 \begin{equation}
@@ -278,35 +251,35 @@ n(M) \propto L^{-\alpha} M^{\beta-1} \propto M^{-\alpha\beta+\beta-1} \propto M^
 \item However, in the coursebook, rather confusingly, we use $n(M) \propto M^{-2.35}$ and $\phi(L) \propto L^{-1.35}$
 \item While \textbf{integrating}, remember that we are calculating $L \times \phi(L)dL$ and $ m \times n(m)dm$ respectively - For More \textbf{please check Exercise 59} 
 \end{itemize}
-\section{Lifetime of stars}
-\subsection{Motivation}
+\subsection{Lifetime of stars}
+\subsubsection{Motivation}
 \begin{itemize}
 \item In Pleiades, $L^{-1.35}$ is consistent for all solar masses
 \item This isn't expected for $> 5 M_\odot$
 \item It shows that some original high mass stars have disappeared, why?
 \end{itemize}
-\subsection{Calculation}
+\subsubsection{Calculation}
 \begin{itemize}
 \item In general, burnable fraction $f$ varies along the mass range, with $f \propto M$. Considering other factors:
 \begin{equation}
 t_*=10.8 \left(\frac{M_*}{M_\odot} \right)^{-2} \text{Gyr}
 \end{equation}
 \end{itemize}
-\section{Lifetime of Milky way}
+\subsection{Lifetime of Milky way}
 \begin{itemize}
 \item The fraction of all the $M_*$ stars that are still here is $\frac{t_*}{T}$ \footnote{I personally don't quite understand this statement}
 \end{itemize}
-\section{Hydrogen gas}
+\subsection{Hydrogen gas}
 \begin{itemize}
 \item In Hydrogen 1s state, there are two levels with slightly different energy levels, caused by Nuclear spin and Electron spin. The parallel state has a slightly higher energy than the anti-parallel state (think about the case of magnets)
 \item The total 21cm line luminosity from a region is just proportional to the number of H atoms it contains 
 \end{itemize}
-\section{Molecular gas}
+\subsection{Molecular gas}
 \begin{itemize}
 \item In most of the ISM (Interstellar Medium) hydrogen is in atomic form
 \item In cold dense regions the starlight can be blocked out and molecules form
 \end{itemize}
-\section{Dust}
+\subsection{Dust}
 \begin{itemize}
 \item The energy of starlight that dust particles are absorbing
 in the visible light regime has to come out somewhere else
@@ -316,7 +289,7 @@ P_\text{abs}&=A \times \frac{L}{4 \pi D^2}\\
 P_\text{emit}&= A \sigma T^4
 \end{align}
 \end{itemize}
-\section{Galaxy Types}
+\subsection{Galaxy Types}
 \begin{table}[h!]
   \begin{center}
     \begin{tabular}{c|c|c}
@@ -330,8 +303,8 @@ P_\text{emit}&= A \sigma T^4
   \end{center}
 \end{table}
 \begin{itemize}
-\item \textbf{Spirals} mainly form stars along the spiral arms \footnote{Trace it by the ionised gas, I forgot, please revise!}
-\item \textbf{Ellipticals} stopped making stars a long time ago since the massive blue stars have all disappeared)\footnote{Since blue stars have a shorter lifespan - see chapter 7}
+\item \textbf{Spirals} mainly form stars along the spiral arms 
+\item \textbf{Ellipticals} stopped making stars a long time ago since the massive blue stars have all disappeared)\footnote{Since blue stars have a shorter lifespan}
 \item The reason is that they have no gas, which is the material needed to make new stars
 \item \textbf{Irregulars} don't have gas because:
 \begin{itemize}
@@ -339,7 +312,7 @@ P_\text{emit}&= A \sigma T^4
 \item The disc has been disrupted by collision with another galaxy
 \end{itemize}
 \end{itemize}
-\section{Spiral Discs}
+\subsection{Spiral Discs}
 \begin{itemize}
 \item The brightness $I$ as a function of separation from the centre $R$ is given by:
 \begin{equation}
@@ -347,13 +320,16 @@ I(R)=I_0e^{\frac{-R}{R_d}}
 \end{equation}
 \item Nearly all spiral discs have pretty much the same value of $I_0$, but different values
 of $R_d$
-THIS PART STILL INCOMPLETE!!!
-\end{itemize}
-\section{Ellipticals}
+\item With $\int_0^{\infty} x^n e^{-x} dx = n!$, the reader can try to prove that the total light present is given by:
 \begin{equation}
-I(R)=I_0e^({\frac{-R}{R_e})^{\frac{1}{4}}}
+    F_\text{tot}=2\pi {R_d}^2 I_0
 \end{equation}
-\section{Dark Matter}
+\end{itemize}
+\subsection{Ellipticals}
+\begin{equation}
+I(R)=I_0 \exp[{\frac{-R}{R_e}]^{\frac{1}{4}}}
+\end{equation}
+\subsection{Dark Matter}
 \begin{itemize}
 \item The predicted rotation curve still disagrees with the observations badly
 \item The expected rotation curve is flat
@@ -366,7 +342,7 @@ V^2=\frac{GM}{R^2}
 \end{equation}
 \item Therefore $M_\text{dark}(<R) \propto R$
 \begin{itemize}
-\item The $(<R)$ part is an obvious consequence of Birkhoff's theorem from General Relativity\footnote{See Chapter 1}
+\item The $(<R)$ part is an obvious consequence of Birkhoff's theorem from General Relativity
 \end{itemize}
 \item Considering the density $(\rho_\text{dark})$:
 \begin{align}
@@ -376,21 +352,21 @@ V^2=\frac{GM}{R^2}
 \item Therefore dark Matter is concentrated near the center
 \item A large galaxy like the Milky Way has about $10^{11}M_\odot$ in stars, and $10^{12}M_\odot$ in dark matter
 \end{itemize}
-\section{Random star motions and interactions in spheroids}
+\subsection{Random star motions and interactions in spheroids}
 \begin{itemize}
 \item Elliptical galaxies do not rotate.
 \item What is the chance of star collisions?
 \end{itemize}
-\subsection{Probability}
+\subsubsection{Probability}
 \begin{itemize}
-\item Given by the ratio of $\pi{R_\text{sep}}^2$ and $\pi R^2$, \textbf{where $R=2R_*$ and $R_*$ is the radius of the stars} \footnote{ I think $R=2R_*$ because we are considering the diameter- I'm not completely sure!}
+\item Given by the ratio of $\pi{R_\text{sep}}^2$ and $\pi R^2$, \textbf{where $R=2R_*$ and $R_*$ is the radius of the stars} 
 \begin{align}
 p={\left(\frac{R}{R_\text{sep}}\right)}^2\\
 ={\left(\frac{2R_*}{R_\text{sep}}\right)}^2 
 \end{align}
 \textbf{The second line only applies if they have the same size}
 \end{itemize}
-\subsection{Time between collisions}
+\subsubsubsection{Time between collisions}
 \begin{itemize}
 \item Consider a cylinder covering the path of the stars
 \item As a convention, we let $\sigma$ as the cross-sectional area of the cylinder
@@ -403,7 +379,7 @@ We set $N=1$ and hence:
 t_\text{coll}=\frac{1}{n \sigma v}
 \end{equation}
 \item After substitution, we find out $t_\text{coll} > \text{age of universe}$
-\section{Gravitational Radius $R_\text{grav}$}
+\subection{Gravitational Radius $R_\text{grav}$}
 The radius in which the kinetic and potential energy of the passing star are equal in magnitude is defined as the $R_\text{grav}$. For $R_\text{star}<R_\text{grav} $, its path is deflected by the other star. Assuming both stars have the same mass $m$:
 For potential energy:
 \begin{equation}
@@ -420,27 +396,27 @@ Taking their magnitudes:
 R_\text{grav}&=\frac{2Gm}{v^2}
 \end{align}
 \end{itemize}
-\section{Galaxy collisions}
+\subection{Galaxy collisions}
 \begin{itemize}
 \item Stars almost never collide, but galaxies do
 \item Galaxy interactions make strange non-symmetric disturbed structures as they pass by each other
 \end{itemize}
-\section{Active Galactic Nuclei}
-\subsection{Luminosity}
+\subsection{Active Galactic Nuclei}
+\subsubsection{Luminosity}
 \begin{itemize}
 \item All galaxies except irregulars are brightest at the centre. However a minority have an especially bright central spot
 \item Example: Quasars
 \item Some galaxies can have nuclear luminosities which are around $10\%$ of the luminosity of an entire normal galaxy of stars like the Milky Way
 \item Do exercise \text{73}
 \end{itemize}
-\subsection{Board emission lines}
+\subsubsection{Board emission lines}
 \begin{itemize}
 \item AGN emission lines are very broad. The $H\alpha$ line at 656.3nm is about 20nm across.
 \item The broadening of the emission lines must be due to internal gas motions
 in the nucleus
 \item See the notes for Doppler Shift!
 \end{itemize}
-\subsection{Multi-wavelength spectral energy distribution}
+\subsubsection{Multi-wavelength spectral energy distribution}
 \begin{itemize}
 \item AGNs radiate strongly at all sorts of wavelengths
 \item The feature which dominates the energy output for most
@@ -463,7 +439,7 @@ AGN output however is the “Big Blue Bump”, which peaks in the UV
 have a wide range of temperatures, $10^{7-9}K$.
 \end{itemize}
 \end{itemize}
-\section{Variability of AGNs}
+\subsection{Variability of AGNs}
 \begin{itemize}
 \item Vary erratically, cannot be used like Cepheids
 \item There is some disturbance transmission mechanism (some sort of waves). The transmittion time:
@@ -487,7 +463,7 @@ v&=\sqrt{\frac{3kT}{m}}
 \end{align}
 \item Assume $T=10^5k$ and we obtain 49.8 $km s^{-1}$\textbf{, and according to Astrophysicists\footnote{The assumptions in all the calculations are too approximate for my liking!}, 31.7 $\approx$ 49.8, so we can see it probably comes from sound waves	}\footnote{31.7 $kms^{-1}$ is obtained in \textbf{Exercise 77}}
 \end{itemize}
-\section{Motion around AGN}
+\subsection{Motion around AGN}
 \begin{itemize}
 \item Recall our equation:
 \begin{equation}
@@ -500,7 +476,7 @@ v^2=\frac{GM}{R}
 \item Solution: Observe the image on the sky, if it looks like a ellipse
 \end{itemize}
 \end{itemize}
-\section{Emission line widths and time lag}
+\subsection{Emission line widths and time lag}
 \begin{itemize}
 \item Some gases emit lines, they are ionised by the time-varying UV light
 \item Time lag $t_\text{lag}$ exists since light need time to travel from centre of AGN to the gas
@@ -512,20 +488,20 @@ Afterwards, we can obtain $V_\text{BLR}$ by estimating the line width. The mass 
 M=\frac{R_\text{BLR}V_\text{BLR}^2}{G}
 \end{equation}
 \end{itemize}
-\section{AGN masses and luminosity}
+\subsection{AGN masses and luminosity}
 \begin{itemize}
 \item Stars range over about a factor of $10^9$ (1 billion) in luminosity, but only about a factor of $500$ in mass
 \item Similarly, AGNs range over about a factor of $10^6$ (1 million) in luminosity, but only about a factor of $1000$ in mass
 \item In AGNs, there is little correlation between mass and luminosity, as opposed to stars
 \end{itemize}
-\section{Dark masses}
+\subsection{Dark masses}
 \begin{itemize}
 \item By measuring the width of absorption lines in the light from a galaxy, we can estimate the speed of random motions of the stars in that galaxy \footnote{How is it linked to "broad emission lines" in the section above?}
 \item If we make such a measurement at a series of different locations within the galaxy, we can see that stellar velocities start to increase rapidly towards the centre of most galaxies
 \item From the methods introduced above, we can deduce the mass in the centre of AGN, which is far less than the stellar mass estimated from starlight 
 \item We deduce the "missing mass" is dark mass
 \end{itemize}
-\section{Power from black hole accretion}
+\subsection{Power from black hole accretion}
 \begin{itemize}
 \item If a small mass $\Delta m$ starts from a distance and falls onto a large mass $M$, it gains kinetic energy:
 \begin{equation}
@@ -576,7 +552,30 @@ r_\text{ms}&=6\frac{GM}{c^2}\\
 \end{itemize}
 Combining with other effects, we have $\mu \approx 0.1$
 \end{itemize}
-\section{Big Bang}
+\subsection{Eddington Limit}
+\begin{itemize}
+    \item A photon has energy $E=\frac{hc}{\lambda}$ and momentum $p=\frac{h}{\lambda}=\frac{E}{c}$. So you can visualize momentum flux being $\frac{S}{c}$, where $S$ is the radiation flux
+    \item Most of that flux may pass straight through, but some of it will scatter on the electrons inside atoms. That scattering produces a force on the electrons, which drag the
+     atoms with them. The scattering process has a cross-section $\sigma_e = 6.65 × 10−29 m^2$ 
+    \item The \textbf{rate} \footnote{This implies differentiation} of momentum transfer (or in other words, radiation force on each atom) is therefore:
+     \begin{equation}
+        \dfrac{dp}{dt}=\frac{S \sigma_e}{c}
+     \end{equation}
+    \item Combining with $L=\frac{S}{4 \pi R^2}$ we obtain:
+    \begin{equation}
+        F_\text{radiation}=\frac{L \sigma_e}{4 \pi R^2 c}
+    \end{equation}
+    \item Assuming all the gas are hydrogen and each hydrogen atom composes of 1 proton, which has mass of $m_p$. As $m_e<<m_p$, we have:
+    \begin{equation}
+        F_\text{gravitation}=\frac{GMm_p}{R^2}
+    \end{equation}
+    \item At the limiting luminosity, the outward radiation force is equal to the inwards gravitational force, \ie $F_\text{radiation}=F_\text{gravitation}$. Combining everything gives us:
+    \begin{equation}
+        L_\text{Max}=\frac{4 \pi G m_p c}{\sigma_e} \times M
+    \end{equation}
+\end{itemize}
+\section{Cosmology}
+\subsection{Big Bang}
 \begin{itemize}
 \item Consider a galaxy on the edge of a sphere in the universe centered on us
 \item By Birkhoff's theorem
@@ -591,7 +590,7 @@ Combining with other effects, we have $\mu \approx 0.1$
 \item \textbf{If $E<0$, the universe re-collaspes in a big crunch}
 \item \textbf{If $E>0$, the universe continues to expand}
 \end{itemize}
-\section{Hubble constant}
+\subsection{Hubble constant}
 \begin{itemize}
     \item It changes with radius (see below)
     \item An important equation:
@@ -600,7 +599,7 @@ Combining with other effects, we have $\mu \approx 0.1$
     \end{equation}
 This is an obvious result from Doppler's shift. Recall that $z=\frac{\Delta \lambda}{\lambda}$, $V=H_0r$ and $\frac{\Delta \lambda}{\lambda}=\frac{v_r}{v_w}$. Substitute everything and you'll get it.
 \end{itemize}
-\section{Critical Density of the Universe}
+\subsection{Critical Density of the Universe}
 \begin{itemize}
     \item Consider the equations below:
     \begin{align}
@@ -617,8 +616,8 @@ This is an obvious result from Doppler's shift. Recall that $z=\frac{\Delta \lam
     \end{align}
     \item As $\rho_\text{crit}$ decrease with increasing $r$, by referring to the equation above, we can proof that $H_0$ changes with time
 \end{itemize}
-\section{Cosmic Scale Factor}
-\subsection{Definition}
+\subsection{Cosmic Scale Factor}
+\subsubsection{Definition}
 \begin{equation}
     R(t)=\frac{r(t)}{r(t=\text{today})}
     \end{equation}
@@ -626,7 +625,7 @@ This is an obvious result from Doppler's shift. Recall that $z=\frac{\Delta \lam
 \begin{equation}
     R(t_\text{emit})=\frac{\lambda_\text{emit}}{\lambda_\text{obs}}
 \end{equation}
-\subsection{Redshift}
+\subsubsection{Redshift}
 \begin{equation}
 z=\frac{\lambda_{\circ}-\lambda_e}{\lambda_e}
 \end{equation}
@@ -634,7 +633,7 @@ And hence:
 \begin{equation}
     R(t)=\frac{1}{1+z}
 \end{equation}
-\section{Geometry of the universe}
+\subsection{Geometry of the universe}
 We define the density parameter as:
 \begin{equation}
     \Omega_0=\frac{\rho}{\rho_\text{crit}}
@@ -644,7 +643,7 @@ We define the density parameter as:
     \item Open(Expanding):$\Omega<1$,$E>0$
     \item Flat: $\Omega=1$,$E=0$
 \end{itemize}
-\section{Problems of the Big Bang Model}
+\subsection{Problems of the Big Bang Model}
 \begin{itemize}
     \item Flatness Problem
     \begin{itemize}
@@ -655,7 +654,7 @@ We define the density parameter as:
     \item Two ends of the horizon looks the same and has the same temperature, which implies they must have been connected. By def, as our horizon is the furthest light can travel since the big bang, these two regions (in this case separated by 2 horizon scales) can not have been connected at the big bang
 \end{itemize}
 \end{itemize}
-\section{Guth Inflation Solution}
+\subsection{Guth Inflation Solution}
 \begin{itemize}
     \item Alan Guth developed a theory called \textbf{Inflation} where a new form of energy from a field created roughly $10^{-30}$ seconds after the big bang accelerated the
 expansion of the Universe at speeds faster than light 
@@ -671,7 +670,7 @@ expansion of the Universe at speeds faster than light
         \end{itemize}
     \end{itemize}
 \end{itemize}
-\section{Energy density of matter and radiation}
+\subsection{Energy density of matter and radiation}
 \begin{align}
 \rho_\text{m} &\propto {R(t)}^{-3}\\
 \rho_\text{r} &\propto {R(t)}^{-4}
@@ -706,14 +705,14 @@ We have defined:
 \end{equation}
 And we can easily rearrange find $z \approx 3332$
 \end{itemize}
-\section{Beginning of the universe}
+\subsection{Beginning of the universe}
 \begin{itemize}
 \item This era was described as "opaque" as the light from this era cannot travel out into the Universe ,\textbf{because the photons scatter off electrons}
 \item The particles in the early Universe are not distributed randomly and
 there are fluctuations due to tiny random \textbf{quantum fluctuations}
 in the pea-sized Universe that existed after the big bang and before $10^{-30}s$
 \end{itemize}
-\section{Recombination}
+\subsection{Recombination}
 \begin{itemize}
 \item In the radiation dominated Universe, the photons are so dense that the
 photon pressure can push the clumps apart. An ongoing battle between matter trying to clump
@@ -724,7 +723,7 @@ particles have combined to form neutral atoms so the photons freely travel out i
 Universe. We detect the first radiation from this era in the form of the cosmic microwave
 background.
 \end{itemize}
-\section{Chemical building blocks}
+\subsection{Chemical building blocks}
 \begin{itemize}
 \item In the very early radiation dominated Universe, protons and neutrons move fast, collide often and fuse to form nuclei. The high density of high energy gamma ray photon however manage to
 blast any nuclei that form apart $\implies$ None are formed
@@ -735,7 +734,7 @@ heavier elements can be made as the density decreases (with the expansion) the c
 become rare and unimportant. The rest of the chemicals on our periodic table are created much
 later on in the history of the Universe in the cores of stars \footnote{You have learnt them before!}
 \end{itemize}
-\section{Deuterium}
+\subsection{Deuterium}
 \begin{itemize}
 \item Heavy Hydrogen 
 \item Why important?
@@ -745,7 +744,7 @@ any other point in the history of the Universe except during nucleosynthesis.
 \item  The cores of stars have the required temperatures for Deuterium to be created, but the stars are so dense, the chain of reactions don’t stop and they use up all of their Deuterium in other reactions
 \end{itemize}
 \end{itemize}
-\section{Nucleosynthesis and the baryon density}
+\subsection{Nucleosynthesis and the baryon density}
 \begin{itemize}
 \item Protons, neutrons, everything in the periodic table is baryons
 \item We define the baryon density parameter as:
@@ -754,13 +753,12 @@ any other point in the history of the Universe except during nucleosynthesis.
 \end{equation}
 \item From nucleosynthesis observation we measure $\Omega_b$ = 0.045
 \end{itemize}
-\section{Einstein Ring}
-\section{Cosmic Microwave Background}
+\subsection{Cosmic Microwave Background}
 \begin{itemize}
 \item If the Universe started in a hot big bang, then the atoms would have interacted so strongly that all detailed features in their energy distribution are washed out and we would expect to see a thermal continuous blackbody spectrum from the Big Bang
 \item Experimental data fits extremely well with blackbody curve for $T=2.74k$, which confirms our theory on the competition between matter and radiation in the early Universe
 \end{itemize}
-\section{What is Dark Matter}
+\subsection{What is Dark Matter}
 \begin{itemize}
 \item An early hypothesis was that this dark matter was cold baryonic matter bound up in dark objects such as failed faint Brown Dwarf stars
 \item We know from nucleosynthesis that only $\approx$ 5\% of the Universe is made up of baryons, so whatever this extra mass is it must be
@@ -773,7 +771,7 @@ non-baryonic
 of physics) is homogenous and isotropic
 \end{itemize}
 \end{itemize}
-\section{Distance-redshift relation}
+\subsection{Distance-redshift relation}
 \begin{itemize}
 \item This section resulted in a Nobel Prize in 2011. They used distant supernova as standard candles to probe the Universe
 \item We have the formula $D=\frac{cz}{H_0}$. There is an extension that works for more distant galaxies:
@@ -782,7 +780,7 @@ D_L \approx \frac{c(1+z)(z-\frac{1+q}{2}z^2)}{H_0}
 \end{equation}
 \item Where $q=-\left(1+\frac{\dot{H}}{H^2}\right)$ and $\dot{H}$ is the rate of change of the Hubble parameter
 \end{itemize}
-\section{Concordant cosmology}
+\subection{Concordant cosmology}
 \begin{itemize}
 \item Baryonic content  $\Omega_b \approx 0.05$
 \item The total dark and baryonic matter content $\Omega_m \approx 0.3$
