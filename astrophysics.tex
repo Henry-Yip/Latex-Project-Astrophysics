@@ -3,6 +3,12 @@
 \usepackage{amssymb}
 \usepackage{parskip}
 \usepackage [utf8] {inputenc}
+\usepackage{titlesec}
+\setcounter{secnumdepth}{4}
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 \newcommand{\ie}{\textit{i}.\textit{e}. }
 \title{Introductory Astrophysics (PHYS08050) Notes}
 \author{Henry Yip
@@ -366,7 +372,7 @@ p={\left(\frac{R}{R_\text{sep}}\right)}^2\\
 \end{align}
 \textbf{The second line only applies if they have the same size}
 \end{itemize}
-\subsubsubsection{Time between collisions}
+\paragraph{Time between collisions}
 \begin{itemize}
 \item Consider a cylinder covering the path of the stars
 \item As a convention, we let $\sigma$ as the cross-sectional area of the cylinder
@@ -379,7 +385,7 @@ We set $N=1$ and hence:
 t_\text{coll}=\frac{1}{n \sigma v}
 \end{equation}
 \item After substitution, we find out $t_\text{coll} > \text{age of universe}$
-\subection{Gravitational Radius $R_\text{grav}$}
+\subsection{Gravitational Radius $R_\text{grav}$}
 The radius in which the kinetic and potential energy of the passing star are equal in magnitude is defined as the $R_\text{grav}$. For $R_\text{star}<R_\text{grav} $, its path is deflected by the other star. Assuming both stars have the same mass $m$:
 For potential energy:
 \begin{equation}
@@ -396,7 +402,7 @@ Taking their magnitudes:
 R_\text{grav}&=\frac{2Gm}{v^2}
 \end{align}
 \end{itemize}
-\subection{Galaxy collisions}
+\subsection{Galaxy collisions}
 \begin{itemize}
 \item Stars almost never collide, but galaxies do
 \item Galaxy interactions make strange non-symmetric disturbed structures as they pass by each other
@@ -556,7 +562,7 @@ Combining with other effects, we have $\mu \approx 0.1$
 \begin{itemize}
     \item A photon has energy $E=\frac{hc}{\lambda}$ and momentum $p=\frac{h}{\lambda}=\frac{E}{c}$. So you can visualize momentum flux being $\frac{S}{c}$, where $S$ is the radiation flux
     \item Most of that flux may pass straight through, but some of it will scatter on the electrons inside atoms. That scattering produces a force on the electrons, which drag the
-     atoms with them. The scattering process has a cross-section $\sigma_e = 6.65 × 10−29 m^2$ 
+     atoms with them. The scattering process has a cross section $\sigma_e = 6.65 × 10^{-29} m^2$ 
     \item The \textbf{rate} \footnote{This implies differentiation} of momentum transfer (or in other words, radiation force on each atom) is therefore:
      \begin{equation}
         \dfrac{dp}{dt}=\frac{S \sigma_e}{c}
@@ -780,7 +786,7 @@ D_L \approx \frac{c(1+z)(z-\frac{1+q}{2}z^2)}{H_0}
 \end{equation}
 \item Where $q=-\left(1+\frac{\dot{H}}{H^2}\right)$ and $\dot{H}$ is the rate of change of the Hubble parameter
 \end{itemize}
-\subection{Concordant cosmology}
+\subsection{Concordant cosmology}
 \begin{itemize}
 \item Baryonic content  $\Omega_b \approx 0.05$
 \item The total dark and baryonic matter content $\Omega_m \approx 0.3$
